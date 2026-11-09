@@ -8,16 +8,17 @@
 void ctrl_menu_lancer(Compte *actif, Compte comptes[], int nb_comptes) {
     int continuer = 1;
     while (continuer) {
-        int choix = vue_menu_principal_afficher(actif);
+        int choix = afficher_vue_menu_principal(actif);
 
         switch (choix) {
-            case 1: ctrl_lancer_choix_mode(actif);    
+            case 1: ctrl_lancer_choix_mode(actif);
                 break;
-            case 2: ctrl_lancer_scores(comptes, nb_comptes, actif); 
-                break;
+            //case 2: ctrl_lancer_scores(comptes, nb_comptes, actif);
+                //break;
             case 3: ctrl_lancer_parametres(actif, comptes, nb_comptes);
                 break;
-            case 4: continuer = 0;                                    break;
+            case 4: continuer = 0;
+                break;
                 default:
                 printf("Choix invalide. Veuillez reessayer.\n");
         }

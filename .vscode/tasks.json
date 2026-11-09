@@ -5,8 +5,7 @@
             "label": "C/C++: gcc.exe build active file",
             "command": "C:\\Users\\junior fosso\\gcc\\bin\\gcc.exe",
             "args": [
-                "-fdiagnostics-color=always",
-                "-g",
+                 "-g",
                 "${file}",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
