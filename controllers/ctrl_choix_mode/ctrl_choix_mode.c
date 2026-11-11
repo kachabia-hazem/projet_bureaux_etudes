@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include "ctrl_choix_mode.h"
-#include "vue_choix_mode.h"
-#include "compte.h"
+#include "../../views/Vue_choix_mode/vue_choix_mode.h"
+#include "../../models/compte.h"
 
 void ctrl_lancer_choix_mode(Compte *actif) {
     int choix = vue_choix_mode_afficher();

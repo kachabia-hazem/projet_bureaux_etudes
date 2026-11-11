@@ -1,7 +1,7 @@
 #ifndef CTRL_CHOIX_MODE_H
 #define CTRL_CHOIX_MODE_H
 
-#include "compte.h"
+#include "../../models/compte.h"
 
 void ctrl_lancer_choix_mode(Compte *actif);
 

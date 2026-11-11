@@ -1,7 +1,7 @@
 #ifndef GESTION_COMPTES_H
 #define GESTION_COMPTES_H
 
-#include "compte.h"
+#include "../../models/compte.h"
 
 int  charger_tous_comptes(Compte comptes[]);
 void sauvegarder_tous_comptes(Compte comptes[], int nb);

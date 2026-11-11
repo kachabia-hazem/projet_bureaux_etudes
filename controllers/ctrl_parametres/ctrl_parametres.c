@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "ctrl_parametres.h"
-#include "vue_parametres.h"
-#include "gestion_comptes.h"
-#include "gestion_audio.h"
+#include "../../views/Vue_parametres/Vue_parametres.h"
+#include "../../services/gestion_comptes/gestion_comptes.h"
+#include "../../services/gestion_audio/gestion_audio.h"
 
 
 void ctrl_parametres_son(Compte *actif, Compte comptes[], int nb_comptes) {

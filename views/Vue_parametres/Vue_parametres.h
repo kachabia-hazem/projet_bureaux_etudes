@@ -2,7 +2,7 @@
 #ifndef VUE_PARAMETRES_H
 #define VUE_PARAMETRES_H
 
-#include "compte.h"
+#include "../../models/compte.h"
 
 
 int vue_parametres_afficher(Compte *actif);

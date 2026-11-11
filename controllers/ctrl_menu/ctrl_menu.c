@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include "ctrl_menu.h"
-#include "vue_menu_principal.h"
-#include "ctrl_choix_mode.h"
-#include "ctrl_scores.h"
-#include "ctrl_parametres.h"
+#include "../../views/Vue_menu_principal/vue_menu_principal.h"
+#include "../ctrl_choix_mode/ctrl_choix_mode.h"
+#include "../ctrl_scores/ctrl_scores.h"
+#include "../ctrl_parametres/ctrl_parametres.h"
 
 void ctrl_menu_lancer(Compte *actif, Compte comptes[], int nb_comptes) {
     int continuer = 1;

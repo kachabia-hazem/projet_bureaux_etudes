@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 #include "ctrl_compte.h"
-#include "vue_selection_compte.h"
-#include "vue_creation_compte.h"
-#include "gestion_comptes.h"
+#include "../../views/Vue_selection_compte/vue_selection_compte.h"
+#include "../../views/Vue_creation_compte/vue_creation_compte.h"
+#include "../../services/gestion_comptes/gestion_comptes.h"
 
 int ctrl_choix_compte(Compte comptes[], int nb_comptes) {
     int choix = afficher_vue_selection_compte(comptes, nb_comptes);

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include "gestion_comptes.h"
-#include "compte.h"
+#include "../../models/compte.h"
 
 #ifndef MAX_COMPTES
 #define MAX_COMPTES 100
