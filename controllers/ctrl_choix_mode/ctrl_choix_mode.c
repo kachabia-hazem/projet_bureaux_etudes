@@ -2,14 +2,15 @@
 #include "ctrl_choix_mode.h"
 #include "../../views/Vue_choix_mode/vue_choix_mode.h"
 #include "../../models/compte.h"
+#include "../wctrl_jeu/wctrl_jeu.h"
 
 void ctrl_lancer_choix_mode(Compte *actif) {
     int choix = vue_choix_mode_afficher();
 
     switch (choix) {
-        case 1:
-            printf("Mode Classique selectionne.\n");
-            break;
+       case 1:
+        ctrl_jeu_lancer_classique(actif);
+       break;
         case 2:
             printf("Mode Chronometre selectionne.\n");
             break;
